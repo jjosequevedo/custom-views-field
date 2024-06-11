@@ -1,0 +1,7 @@
+name: Custom Views Field
+type: module
+description: 'Provides a custom field for views.'
+package: CHOP
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:views
