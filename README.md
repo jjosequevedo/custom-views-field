@@ -11,17 +11,17 @@ The **Custom Views Field** module provides a custom field for Drupal views. This
 To install the Custom Views Field module, follow these steps:
 
 1. **Download the module**:
-Clone the module into your project directory using the following command:
+   - Clone the module into your project directory using the following command:
 
-```bash Copy code
-git clone git@github.com:jjosequevedo/custom-views-field.git
-```
+    ```bash Copy code
+    git clone git@github.com:jjosequevedo/custom-views-field.git
+    ```
 2. **Enable the module**:
-Navigate to your Drupal project directory and run the following Drush command:
+   - Navigate to your Drupal project directory and run the following Drush command:
 
-```bash Copy code
-drush en custom_views_field
-```
+    ```bash Copy code
+    drush en custom_views_field
+    ```
 ## Configuration
 There are no additional configurations required for this module.
 
@@ -32,4 +32,4 @@ No special usage instructions are necessary. Once installed and enabled, the cus
 There are no known common issues with this module.
 
 ## License
-This project is licensed under the GNU General Public License. See the LICENSE file for more information.
+This project is licensed under the GNU General Public License.
