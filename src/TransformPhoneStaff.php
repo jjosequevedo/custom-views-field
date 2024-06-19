@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\chop_custom_views_field;
+namespace Drupal\custom_views_field;
 
 use Drupal\node\NodeInterface;
 use Drupal\paragraphs\ParagraphInterface;

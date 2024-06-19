@@ -1,3 +1,0 @@
-services:
-  chop_custom_views_field.transform_phone_staff:
-    class: Drupal\chop_custom_views_field\TransformPhoneStaff

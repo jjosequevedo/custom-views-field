@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\chop_custom_views_field\Plugin\views\field;
+namespace Drupal\custom_views_field\Plugin\views\field;
 
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\views\Plugin\views\field\FieldPluginBase;
@@ -19,7 +19,7 @@ class ConditionalPhone extends FieldPluginBase {
   /**
    * The transform phone staff service.
    *
-   * @var \Drupal\chop_custom_views_field\TransformPhoneStaffInterface
+   * @var \Drupal\custom_views_field\TransformPhoneStaffInterface
    */
   protected $transformPhoneStaff;
 
@@ -28,7 +28,7 @@ class ConditionalPhone extends FieldPluginBase {
    */
   public static function create(ContainerInterface $container, array $configuration, $plugin_id, $plugin_definition) {
     $instance = parent::create($container, $configuration, $plugin_id, $plugin_definition);
-    $instance->transformPhoneStaff = $container->get('chop_custom_views_field.transform_phone_staff');
+    $instance->transformPhoneStaff = $container->get('custom_views_field.transform_phone_staff');
     return $instance;
   }
 
